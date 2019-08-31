@@ -1,6 +1,6 @@
 CC=g++
 OBJS=main.o
-TARGET=main
+TARGET=FindPair
 
 $(TARGET): $(OBJS)
 	$(CC) -o $@ $(OBJS)
